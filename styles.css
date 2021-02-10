@@ -1,3 +1,9 @@
+/*
+======
+LAYOUT
+======
+*/
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: floralwhite;
@@ -6,6 +12,20 @@ body {
 header {
     color: sienna;
 }
+
+/*
+aside {
+    float: right;
+    background-color: whitesmoke;
+    width: 15%;
+}
+*/
+
+/*
+=======
+CONTENT
+=======
+*/
 
 h3, h4, ol {
     margin-bottom: -0.5em;
@@ -46,13 +66,13 @@ NAME TAG STUFF
     margin-top: 5px;
 }
 
-.tag p.name {
+.tag p.tag-name {
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     font-family: "Brush Script MT", cursive;
     position: relative;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
 }
